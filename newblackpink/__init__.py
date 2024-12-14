@@ -3,7 +3,7 @@ import os
 
 font = ImageFont.truetype(os.path.dirname(__file__) + "/blackpink.otf", 230)
 
-def blackpink(teks):
+def newblackpink(teks):
     # Calculate text size using `getbbox` for more compatibility
     length = font.getbbox(teks)
     text_width = length[2] - length[0]
