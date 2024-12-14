@@ -1,1 +1,1 @@
-recursive-include blackpink *
+include newblackpink/*.otf
