@@ -3,16 +3,16 @@ from setuptools import setup, find_packages
 from os import path
 base_dir = path.abspath(path.dirname(__file__))
 setup(
-  name = 'blackpink',        
-  packages = ['blackpink'],
+  name = 'newblackpink',        
+  packages = ['newblackpink'],
   include_package_data=True,
-  version = '0.6',    
+  version = '1.0',    
   license='MIT',     
   description = 'Blackpink Logo Generator', 
-  author = 'Krypton Byte',                  
-  author_email = 'galaxyvplus6434@gmail.com',     
-  url = 'https://github.com/krypton-byte/blackpink',   
-  download_url = 'https://github.com/krypton-byte/blackpink/archive/0.1.tar.gz',    
+  author = 'Piro Ayush',                  
+  author_email = 'piroayush.tele@gmail.com',     
+  url = 'https://github.com/PiroHackz/newblackpink',   
+  download_url = 'https://github.com/PiroHackz/newblackpink/archive/0.1.tar.gz',    
   keywords = ['blackpink', 'logo', 'generator'], 
   install_requires=[           
           'pillow',
